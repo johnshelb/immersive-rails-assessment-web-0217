@@ -1,0 +1,11 @@
+
+
+<%= form_for @guest do |f| %>
+  <%= f.label :episode_number %>:
+  <%= f.number_field :episode %><br />
+
+  <%= f.label :rating %>:
+  <%= f.number_field :rating %><br />
+
+  <%= f.submit %>
+<% end %>
